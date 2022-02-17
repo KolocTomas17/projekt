@@ -1,0 +1,57 @@
+* {
+    user-select: none;
+}
+
+.cup {
+    width: 175px;
+    transition: .2 margin-bottom ease;
+    cursor: pointer;
+    position: relative;
+    transition: .5s margin ease;
+    z-index: 10;
+}
+
+
+
+.cup:hover{
+    margin-bottom: .5em;
+}
+
+.active-cup {
+    margin-bottom: 7em !important;
+}
+
+
+#wrapper {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+    width: max-content;
+    height: 50vh;
+}
+
+#ball {
+    width: 70px;
+    position: absolute;
+    right: 50px;
+    bottom: 1em;
+    z-index: 100;
+    
+}
+
+#ball-active {
+    margin-left: 100px;
+}
+
+
+
+#btn {
+    width: 100px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+

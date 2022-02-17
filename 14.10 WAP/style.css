@@ -1,0 +1,9 @@
+.myDiv {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 10px solid black;
+    margin: 1em;
+    font-size: 42px;
+    text-align: center;
+}

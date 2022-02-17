@@ -1,0 +1,24 @@
+ * {
+    font-family: 'Italianno', cursive;
+ }
+
+ #co {
+     display: table;
+     margin: 0 auto;
+     max-width: 420px;
+     width: 420px;
+     cursor: pointer;
+
+ }
+
+ #auto-clicker {
+    margin: 0 auto;
+    display: table;
+    font-size: 52px;
+ }
+
+ #co-info {
+     text-align: center;
+     font-size: 42px;
+     color: darkred;
+ }

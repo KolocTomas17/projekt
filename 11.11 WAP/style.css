@@ -1,0 +1,31 @@
+body {
+    margin-left: 39%;
+}
+
+.grid {
+    display: table;
+}
+.row {
+    display: table-row;
+}
+.cell,
+.color-cell {
+    width: 75px;
+    height: 75px;
+    background: white;
+    border: 2px solid black;
+    display: table-cell;
+    margin-left: 5em;
+}
+.color-grid {
+    margin-top: 2em;
+}
+
+.active {
+    border: 2px solid rgb(255, 0, 221) !important;
+    
+}
+
+.all {
+    margin: 0 auto;
+}

@@ -1,0 +1,16 @@
+.myDiv {
+    border: 8px solid black;
+    display: block;
+    float:  left;
+    width: 90px;
+    height: 90px;
+    margin: 3em;
+    font-size: large;
+    user-select: none;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(71, 71, 71);
+}
+

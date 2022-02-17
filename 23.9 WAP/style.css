@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.wrapper{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-image: 
+                      url(./46235.jpg);
+
+    background-size: 100vw 100%;
+    animation: animate 20s linear infinite;
+
+}
+
+@keyframes animate{
+    100%{
+        background-position: 300vw 0px,
+                             200vw 0px,
+                             100vw 0px;
+    }
+}
+
+.car {
+    position: absolute;
+    height: 40%;
+    width: 50%;
+    bottom: 13%;
+    left: 30%;
+}
+
+.head {
+width: 39px;
+margin-left: 885px;
+margin-top: 700px;
+position: absolute;
+animation: spin 2s linear infinite;
+}
+
+.headd {
+    position: absolute;
+    animation: spin 2s linear infinite;
+    width: 39px;
+    margin-top: 700px;
+    margin-left: 1135px;
+}
+
+.test {
+    width: 75px;
+    position: absolute;
+    margin-left: 50px;
+    animation: test 7s linear infinite;
+}
+
+.test1 {
+    width: 75px;
+    position: absolute;
+    margin-left: 50px;
+    animation: test 17s linear infinite;
+}
+.test2 {
+    width: 75px;
+    position: absolute;
+    margin-left: 150px;
+    animation: test 15s linear infinite;
+}
+.test3 {
+    width: 75px;
+    position: absolute;
+    margin-left: 250px;
+    animation: test 12s linear infinite;
+}
+.test4 {
+    width: 75px;
+    position: absolute;
+    margin-left: 350px;
+    animation: test 19s linear infinite;
+}
+
+.test5 {
+    width: 75px;
+    position: absolute;
+    margin-left: 450px;
+    animation: test 10s linear infinite;
+}
+.test6 {
+    width: 75px;
+    position: absolute;
+    margin-left: 550px;
+    animation: test 9s linear infinite;
+}
+.test7 {
+    width: 75px;
+    position: absolute;
+    margin-left: 650px;
+    animation: test 13s linear infinite;
+}
+
+.test8 {
+    width: 75px;
+    position: absolute;
+    margin-left: 750px;
+    animation: test 20s linear infinite;
+}
+.test9 {
+    width: 75px;
+    position: absolute;
+    margin-left: 850px;
+    animation: test 25s linear infinite;
+}
+
+.test10 {
+    width: 75px;
+    position: absolute;
+    margin-left: 950px;
+    animation: test 17s linear infinite;
+}
+
+.test11 {
+    width: 75px;
+    position: absolute;
+    margin-left: 1050px;
+    animation: test 9s linear infinite;
+}
+
+.test12 {
+    width: 75px;
+    position: absolute;
+    margin-left: 1150px;
+    animation: test 13s linear infinite;
+}
+
+.test13 {
+    width: 75px;
+    position: absolute;
+    margin-left: 1250px;
+    animation: test 14s linear infinite;
+}
+
+.test14 {
+    width: 75px;
+    position: absolute;
+    margin-left: 1350px;
+    animation: test 17s linear infinite;
+}
+
+.test15 {
+    width: 75px;
+    position: absolute;
+    margin-left: 1450px;
+    animation: test 27s linear infinite;
+}
+
+.test16 {
+    width: 75px;
+    position: absolute;
+    margin-left: 1550px;
+    animation: test 18s linear infinite;
+}
+.test17 {
+    width: 75px;
+    position: absolute;
+    margin-left: 1650px;
+    animation: test 17s linear infinite;
+}
+.test18 {
+    width: 75px;
+    position: absolute;
+    margin-left: 1750px;
+    animation: test 10s linear infinite;
+}
+
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes test {
+    0% {
+        top: 1px;
+    }
+    100% {
+        top: 100%;
+    }
+}
